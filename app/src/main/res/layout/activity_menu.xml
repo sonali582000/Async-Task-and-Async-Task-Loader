@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Delicious Ice cream"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:textStyle="bold"
+        android:textColor="#272727"
+       android:fontFamily="@font/comfortaa_light"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soft Serve"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It is most often served in a cone \nand then dipped in chocolate or \nrainbow sprinkles"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="47dp"/>
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:maxHeight="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cc1"
+            android:onClick="softy"
+            android:layout_marginLeft="235dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round1"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gelato"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italian gelato ripples and forms \nimperfect scoops because it is \nso much denser than standard \nAmerican ice cream."
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="47dp"/>
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:maxHeight="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cc2"
+            android:layout_marginLeft="235dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round2"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kulfi"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ice cream in India is more like \ncustard than anything else. \nIt's thick and dense and takes \nlonger to melt"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="47dp"/>
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:maxHeight="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cc3"
+            android:layout_marginLeft="235dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round3"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faloodeh"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="While this looks like a savory \nnoodle dish, it is, in fact, ice cream \nfrom Iran"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="47dp"/>
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:maxHeight="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cc4"
+
+            android:layout_marginLeft="235dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round4"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Granita"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Born in Sicily, this icy treat is a \nblend of sugar, water, and various \nflavorings from fruit, nuts, and \nherbs"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="47dp"/>
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:maxHeight="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cc5"
+            android:layout_marginLeft="235dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round5"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mochi"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Japan, dollops of ice cream are \nwrapped in sweet and sticky rice \ndough so you can eat it with your \nhands."
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="47dp"/>
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:maxHeight="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cc6"
+            android:layout_marginLeft="235dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
